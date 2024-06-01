@@ -1,0 +1,42 @@
+{
+    "Lead": [
+        {
+        "fieldname": "custom_follow_up",
+        "fieldtype": "Tab Break",
+        "insert_after": "blog_subscriber",
+        "label": "Follow Up",
+        "module": "TS Crm"
+        },
+        {
+        "fieldname": "custom_section_break",
+        "fieldtype": "Section Break",
+        "insert_after": "custom_follow_up",
+        "label": "",
+        "module": "TS Crm"
+        },
+        {
+        "fieldname": "custom_view_follow_up_details",
+        "fieldtype": "Button",
+        "insert_after": "custom_section_break",
+        "label": "View Follow Up Details",
+        "module": "TS Crm"
+        },
+        {
+        "fieldname": "custom_view_follow_up_details_copy",
+        "fieldtype": "Table",
+        "insert_after": "custom_view_follow_up_details",
+        "label": "",
+        "options":"Follow-Up",
+        "module": "TS Crm"
+        },
+
+        {
+        "fieldname": "custom_remarks",
+        "fieldtype": "Small Text",
+        "insert_after": "fax",
+        "label": "Remarks",
+        "module": "TS Crm"
+        }
+    ]
+}
+

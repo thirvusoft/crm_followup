@@ -1,0 +1,11 @@
+{
+    "CRM Settings": [
+        {
+        "fieldname": "quotation_followup",
+        "fieldtype": "Check",
+        "insert_after": "default_valid_till",
+        "label": "Quotation Follow Up",
+        "module": "TS Crm"
+        }
+    ]
+}
